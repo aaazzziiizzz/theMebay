@@ -1,0 +1,724 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.container {
+    width: 1260px;
+    margin: 0 auto;
+}
+.header{
+background: black;
+    height: 570px;
+}
+.glavnaya{
+    text-decoration: none;
+}
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.title{
+    color: white;
+    font-family: Inter sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+.header__top-info{
+    display: flex;
+    column-gap: 60px;
+}
+.header__top-info1{
+    text-decoration: none;
+    color: white;
+
+}
+.header__top-spans{
+    margin-top: 270px;
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+
+}
+.header__photo{
+    cursor: grab;
+    width: 1220px;
+    height: 570px;
+    padding-left: 40px;
+    margin-top: 40px;
+    display: flex;
+
+}
+.header__main{
+    position: relative;
+}
+.header__main-line{
+    position: absolute;
+    top: 140px;
+    left: 260px;
+}
+.colibri-title{
+    position: absolute;
+    top: 200px;
+    left: 260px;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    font-family: Inter sans-serif;
+}
+.header__main-span{
+    position: absolute;
+    top: 390px;
+    left: 940px;
+}
+.header__main-ps{
+    position: absolute;
+    top: 423px;
+    left: 970px;
+    color: black;
+}
+.header__main-p{
+    position: absolute;
+    top: 500px;
+    left: 270px;
+    color: white;
+}
+.info{
+    padding-top: 256px;
+    padding-bottom: 110px;
+}
+.info__p{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.info__h{
+    text-align: center;
+    font-family: Inter sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+}
+.info__div{
+    display: flex;
+    padding: 40px 0 20px;
+    justify-content: center;
+    column-gap: 220px;
+}
+.info__div-1 p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Inter sans-serif;
+    padding-top: 30px;
+}
+.info__div-2 p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Inter sans-serif;
+    padding-top: 20px;
+}
+.info__btn{
+    width: 140px;
+    height: 40px;
+    background: black;
+    color: white;
+    margin-left: 710px;
+    margin-top: 40px;
+}
+.info__svg2{
+ margin-left: 10px;
+}
+.img-info{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding-bottom: 160px;
+}
+.img-info img{
+    width: 320px;
+    height: 430px;
+    position: relative;
+}
+.img-info p{
+    position: absolute;
+    font-family: Inter sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+}
+.img-info svg{
+    position: absolute;
+}
+.img-info__images{
+    margin-left: -44px;
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-between;
+}
+.img-info__image1{
+    display: flex;
+    position: relative;
+}
+.img-info__image2{
+    display: flex;
+    position: relative;
+}
+.img-info__image3{
+    display: flex;
+    position: relative;
+}
+.img-info__image4{
+    display: flex;
+    position: relative;
+}
+.img-info__image1 p{
+    top: 340px;
+    left: 50px;
+}
+.img-info__image2 p{
+    top: 340px;
+    left: 50px;
+}
+.img-info__image3 p{
+    top: 340px;
+    left: 50px;
+}
+.img-info__image4 p{
+    top: 340px;
+    left: 50px;
+}
+.img-info__image1 svg{
+    top: 280px;
+    left: 50px;
+}
+.img-info__image2 svg{
+    top: 280px;
+    left: 50px;
+}
+.img-info__image3 svg{
+    top: 280px;
+    left: 50px;
+}
+.img-info__image4 svg{
+    top: 280px;
+    left: 50px;
+}
+.featured__top{
+    display: flex;
+    justify-content: center;
+    column-gap: 250px;
+    padding-bottom: 60px;
+}
+.featured__title{
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 500;
+}
+.featured__svg{
+    margin-top: 80px;
+}
+.featured__btn{
+    width: 140px;
+    height: 40px;
+    margin-top: 60px;
+    background: black;
+    color: white;
+}
+.featured__btn svg{
+    margin-left: 10px;
+}
+.featured{
+    position: relative;
+}
+.featured p{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+}
+.featured h5{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+}
+.featured__main{
+    display: flex;
+    justify-content: center;
+    column-gap: 140px;
+}
+.featured__main-left img{
+    padding-bottom: 40px;
+    width: 370px;
+    height: 440px;
+}
+.featured__main-right img{
+    padding-bottom: 40px;
+    width: 600px;
+    height: 440px;
+}
+.featured__start img{
+    padding-bottom: 40px;
+    width: 600px;
+    height: 440px;
+}
+.featured__end img{
+    width: 370px;
+    height: 440px;
+}
+.featured__main-left{
+    padding-top: 180px;
+}
+.featured__main-left p{
+    padding-bottom: 120px;
+    padding-top: 15px;
+}
+.featured__main-right p{
+    padding-bottom: 120px;
+    padding-top: 15px;
+}
+.featured__start p{
+    padding-bottom: 120px;
+    padding-top: 15px;
+}
+.featured__footer{
+    display: flex;
+}
+.featured__end{
+    position: relative;
+    left: 240px;
+    top: -200px;
+}
+.work__process{
+    position: relative;
+    background: black;
+    padding-bottom: 140px;
+}
+.work__title{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    padding: 130px 0 70px;
+}
+.work__box{
+    padding-left: 100px;
+    display: flex;
+    column-gap: 160px;
+}
+.work__nav h5{
+    padding: 14px 0;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    color: #6F6F6F;
+}
+.nav1{
+    color: white; !important;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    column-gap: 20px;
+}
+.work__info p{
+    padding-top: 20px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+}
+.work__info button{
+    margin-top: 72px;
+    background: white;
+    color: black;
+    width: 140px;
+    height: 40px;
+}
+.work__info svg{
+    color: white;
+    margin-left: 10px;
+}
+.work__nav svg{
+    margin-left: -24px;
+}
+.work__krug{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.work__krugy{
+    position: absolute;
+    top: 220px;
+    right: 240px;
+}
+.life__information{
+    padding: 160px 0 140px;
+}
+.life{
+    display: flex;
+}
+.life__img1{
+    width: 470px;
+    height: 290px;
+}
+.life__img-box{
+    display: flex;
+    align-items: start;
+    padding: 40px 0 0 140px;
+}
+.life__img2{
+    width: 140px;
+    height: 140px;
+}
+.life__img3{
+    margin-left: 30px;
+    width: 270px;
+    height: 250px;
+}
+.life__img{
+    width: 600px;
+}
+.life__info{
+    padding-top: 110px;
+    padding-left: 20px;
+}
+.life__info h5{
+    padding-bottom: 40px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+}
+.life__info p{
+    padding-left: 80px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+}
+.life__info button{
+    background: black;
+    color: white;
+    width: 140px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.life__info svg{
+    margin-left: 10px;
+}
+.values{
+    position: relative;
+    padding: 0 0 220px 0;
+}
+.values__title{
+    padding: 0 0 60px 0;
+    text-align: center;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 500;
+    color: black;
+}
+.values__box{
+    column-gap: 110px;
+    display: flex;
+    justify-content: center;
+}
+.values__nav1 p{
+    padding: 10px 0 10px;
+    font-family: Inter sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.values__nav1 h5{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+.values__box1{
+    display: flex;
+}
+.values__box1 svg{
+    padding-right: 20px;
+}
+.values__line{
+    position: absolute;
+    bottom: 100px;
+    left: 720px;
+
+}
+.slide__info{
+    position: relative;
+    background: black;
+    padding: 170px 0 60px 0;
+    cursor: grab;
+}
+.slide__box{
+    position: relative;
+    cursor: grab;
+}
+.slide__line1{
+    top: 140px;
+    position: absolute;
+    left: 0;
+    cursor: grab;
+}
+.slide__line2{
+    position: absolute;
+    right: 170px;
+    bottom: 120px;
+    cursor: grab;
+}
+.slide__icon1{
+    position: absolute;
+    bottom: 390px;
+    left: 610px;
+    cursor: grab;
+}
+.slide__icon2{
+    position: absolute;
+    z-index: 1;
+    bottom: -62px;
+    left: 310px;
+    cursor: grab;
+}
+.slide__title{
+    padding-top: 100px;
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    cursor: grab;
+}
+.slide__subtitle{
+    padding: 30px 0 120px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    color: #6F6F6F;
+    cursor: grab;
+}
+.slide__sub{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    cursor: grab;
+}
+.slide{
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    cursor: grab;
+}
+.clients__box p{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    color: black;
+    padding-bottom: 30px;
+}
+.clients__box h3{
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    color: black;
+}
+.clients__box{
+    justify-content: center;
+    display: flex;
+    padding: 150px 0 180px 0;
+}
+.client__info{
+    padding-right: 200px;
+}
+.client__logo1{
+    display: flex;
+    column-gap: 70px;
+}
+.client__logo2{
+    padding-top: 60px;
+    display: flex;
+    column-gap: 70px;
+}
+.client__logos img{
+    cursor: pointer;
+}
+.new__box{
+    padding-top: 90px;
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+}
+.new1 h5{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    color: black;
+    font-family: Inter sans-serif;
+    padding-top: 30px;
+}
+.new h2{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
+.new1 img{
+    width: 370px;
+    height: 300px;
+    cursor: pointer;
+}
+.new1{
+    position: relative;
+}
+.new1 button{
+    position: absolute;
+    width: 110px;
+    height: 40px;
+    background: white;
+    color: gray;
+    left: 0;
+    border: none 0;
+}
+.new__btn{
+    width: 120px;
+    height: 40px;
+    background: black;
+    color: white;
+    margin: 80px 550px 140px;
+}
+.new__btn svg{
+    margin-left: 10px;
+}
+.new__lets{
+    width: 1260px;
+    border: black solid 1px;
+}
+.lets__box h1{
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 500;
+    color: black;
+}
+.lets__box svg{
+    margin-top: 100px;
+    margin-left: 600px;
+    cursor: pointer;
+}
+.lets__box{
+    cursor: help;
+    padding-bottom: 130px;
+    padding-top: 140px;
+    justify-content: center;
+    display: flex;
+}
+footer{
+    position: relative;
+    color: white;
+    background: black;
+}
+.footer__left{
+    padding: 120px 170px 130px 60px;
+}
+.footer__title{
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+}
+.footer__pishka1{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 30px 0 70px;
+}
+.footer__pishka2{
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 10px 0 100px;
+}
+.footer__box{
+    z-index: 1;
+    display: flex;
+}
+.footer__right{
+    z-index: 1;
+    position: relative;
+    padding: 120px 100px 130px 270px;
+}
+.footer__pishka3{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    color: gray;
+}
+.footer__your{
+    padding-top: 40px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__hr{
+    margin: 8px 0 0 0;
+}
+.footer__your svg{
+    margin-left: 10px;
+}
+.footer__info{
+    padding-top: 140px;
+    display: flex;
+    column-gap: 90px;
+}
+.footer__info h4{
+    font-family: Inter sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+}
+.footer__icon1{
+    height: 618px;
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+.footer__icon2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.footer__pishka4{
+    font-family: Inter sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: gray;
+    position: absolute;
+    bottom: 160px;
+    left: 640px;
+}
+
+.next__swipe{
+    z-index: 10;
+    position: absolute;
+    top: 300px;
+    right: 0;
+    background: none;
+    border: none;
+}
+.prev__swipe{
+    z-index: 10;
+    position: absolute;
+    top: 300px;
+    background: none;
+    border: none;
+    left: 0;
+}
